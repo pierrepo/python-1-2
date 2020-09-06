@@ -1,4 +1,4 @@
-name: plasmabio-template-python
+name: python-2020
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -7,11 +7,16 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - python>=3.7
+  - python=3.7
   - numpy
-  - pandas
+  - scipy
   - matplotlib
-  - jupyterlab=2
+  - pandas
+  - biopython
+  - jupyterlab
+  - pycodestyle
+  - pydocstyle
+  - pylint
   - nodejs
   - nbresuse
   - psutil
