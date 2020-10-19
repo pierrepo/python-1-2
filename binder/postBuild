@@ -3,4 +3,13 @@ jupyter labextension install \
   jupyterlab-topbar-extension \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text
-  
+
+
+# Bokeh
+jupyter labextension install @bokeh/jupyter_bokeh
+
+# plotly
+# https://plotly.com/python/getting-started/
+jupyter labextension install jupyterlab-plotly@4.11.0
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.11.0
+

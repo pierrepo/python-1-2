@@ -21,3 +21,33 @@ dependencies:
   - nbresuse
   - psutil
   - pip
+  # for projects
+  - pytest
+  # Bokeh
+  # https://docs.bokeh.org/en/latest/docs/installation.html
+  - bokeh
+  # plotly
+  # https://plotly.com/python/getting-started/
+  - plotly==4.11.0
+  - ipywidgets
+  # Muscle
+  # https://anaconda.org/bioconda/muscle
+  - muscle
+  # Pillow
+  # https://pillow.readthedocs.io/en/stable/installation.html
+  - pillow
+  # scikit-image
+  # https://scikit-image.org/docs/stable/install.html
+  - scikit-image
+  # scikit-learn
+  # https://scikit-learn.org/stable/install.html
+  - scikit-learn
+  # RDKit
+  # https://scikit-learn.org/stable/install.html
+  - rdkit
+  # Requests
+  # https://anaconda.org/conda-forge/requests
+  - requests
+  # watermark
+  - pip:
+    - watermark
