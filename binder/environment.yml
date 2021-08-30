@@ -7,29 +7,30 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.8
+  - pip
   - numpy
   - scipy
   - matplotlib
   - pandas
   - biopython
-  - jupyterlab
+  - jupyterlab>=3
+  - ipywidgets
   - pycodestyle
   - pydocstyle
   - pylint
   - nodejs
   - nbresuse
   - psutil
-  - pip
   # for projects
   - pytest
   # Bokeh
   # https://docs.bokeh.org/en/latest/docs/installation.html
-  - bokeh
+  - bokeh==2.2.2
+  - jupyter_bokeh
   # plotly
   # https://plotly.com/python/getting-started/
-  - plotly==4.11.0
-  - ipywidgets
+  - plotly==5.3.0
   # Muscle
   # https://anaconda.org/bioconda/muscle
   - muscle
