@@ -1,6 +1,6 @@
 # Conda environment for Python programming
 
-<https://github.com/pierrepo/python-TP-env>
+<https://github.com/pierrepo/python-practical-env>
 
 
 Try the environment in your browser with Binder:
