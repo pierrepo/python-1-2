@@ -5,7 +5,7 @@
 
 Try the environment in your browser with Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pierrepo/python-pratical-env/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pierrepo/python-practical-env/master?urlpath=lab)
 
 ## Create env
 
