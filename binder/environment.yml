@@ -49,6 +49,8 @@ dependencies:
   # Requests
   # https://anaconda.org/conda-forge/requests
   - requests
-  # watermark
   - pip:
+    # watermark
     - watermark
+    # streamlit
+    - streamlit
