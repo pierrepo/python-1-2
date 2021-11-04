@@ -7,6 +7,7 @@ Try the environment in your browser with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pierrepo/python-practical-env/master?urlpath=lab)
 
+
 ## Create env
 
 The environment should already exist in computer rooms at Université de Paris.
