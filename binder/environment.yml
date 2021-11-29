@@ -4,6 +4,7 @@ name: ppoulain-python-2021
 # conda-forge has highest prioriy
 channels:
   - defaults
+  - etetoolkit
   - bioconda
   - conda-forge
 dependencies:
@@ -49,8 +50,13 @@ dependencies:
   # Requests
   # https://anaconda.org/conda-forge/requests
   - requests
+  # Ete
+  # http://etetoolkit.org/download/
+  - ete3
   - pip:
     # watermark
     - watermark
     # streamlit
     - streamlit
+    # Flask
+    - Flask
