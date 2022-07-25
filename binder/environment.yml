@@ -1,4 +1,4 @@
-name: ppoulain-python-2021
+name: ppoulain-python-2022
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -20,6 +20,7 @@ dependencies:
   - pycodestyle
   - pydocstyle
   - pylint
+  - black
   - nodejs
   - nbresuse
   - psutil
@@ -53,6 +54,9 @@ dependencies:
   # Ete
   # http://etetoolkit.org/download/
   - ete3
+  #BioPandas
+  http://rasbt.github.io/biopandas/installation/
+  - biopandas
   - pip:
     # watermark
     - watermark
