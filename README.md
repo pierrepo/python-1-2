@@ -10,16 +10,16 @@ Try the environment in your browser with Binder:
 
 ## Create env
 
-The environment should already exist in computer rooms at Université de Paris.
+The environment should already exist in the computer rooms at the university.
 
 ```bash
-conda env create -f binder/environment.yml
+mamba env update -f binder/environment.yml
 ```
 
 ## Load env
 
 ```bash
-conda activate ppoulain-python-2021
+conda activate ppoulain-python-2022
 ```
 
 ## Run Jupyter Lab
