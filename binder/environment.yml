@@ -64,3 +64,6 @@ dependencies:
     - streamlit
     # Flask
     - Flask
+    # nbqa : notebook quality control
+    # https://nbqa.readthedocs.io/en/latest/index.html
+    - nbqa
