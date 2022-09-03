@@ -54,8 +54,8 @@ dependencies:
   # Ete
   # http://etetoolkit.org/download/
   - ete3
-  #BioPandas
-  http://rasbt.github.io/biopandas/installation/
+  # BioPandas
+  # http://rasbt.github.io/biopandas/installation/
   - biopandas
   - pip:
     # watermark
