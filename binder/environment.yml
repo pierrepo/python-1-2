@@ -21,6 +21,7 @@ dependencies:
   - pydocstyle
   - pylint
   - black
+  - ruff
   - nodejs
   - nbresuse
   - psutil
