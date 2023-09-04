@@ -17,14 +17,19 @@ dependencies:
   - biopython
   - jupyterlab>=3
   - ipywidgets
+  # Linters and formaters
   - pycodestyle
   - pydocstyle
   - pylint
   - black
   - ruff
   - nodejs
+  # Tools
   - nbresuse
   - psutil
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  - jupyter-archive=3.3.4
   # for projects
   - pytest
   # Bokeh
@@ -70,3 +75,6 @@ dependencies:
     # nbqa : notebook quality control
     # https://nbqa.readthedocs.io/en/latest/index.html
     - nbqa
+    # jupyterlab-fasta
+    # https://github.com/jupyterlab/jupyter-renderers/tree/main/packages/fasta-extension
+    - jupyterlab-fasta
