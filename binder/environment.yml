@@ -28,12 +28,12 @@ dependencies:
   # for projects
   - pytest
   # Bokeh
-  # https://docs.bokeh.org/en/latest/docs/installation.html
-  - bokeh==2.2.2
+  # https://docs.bokeh.org/en/latest/docs/user_guide/output/jupyter.html#jupyterlab
+  - bokeh
   - jupyter_bokeh
   # plotly
   # https://plotly.com/python/getting-started/
-  - plotly==5.3.0
+  - plotly
   # Muscle
   # https://anaconda.org/bioconda/muscle
   - muscle
@@ -58,6 +58,8 @@ dependencies:
   # BioPandas
   # http://rasbt.github.io/biopandas/installation/
   - biopandas
+  # MDanalys
+  - mdanalysis
   - pip:
     # watermark
     - watermark
