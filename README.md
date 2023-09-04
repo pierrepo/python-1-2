@@ -22,8 +22,19 @@ mamba env update -f binder/environment.yml
 conda activate ppoulain-python
 ```
 
+## Manually install Muscle
+
+```bash
+conda install -c bioconda muscle=3.8
+```
+
 ## Run Jupyter Lab
 
 ```bash
 jupyter lab
 ```
+
+open `binder/test_modules.ipynb`
+
+`Kernel` -> `Restart Kernel And Run All Cells`
+

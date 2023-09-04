@@ -39,9 +39,6 @@ dependencies:
   # plotly
   # https://plotly.com/python/getting-started/
   - plotly
-  # Muscle
-  # https://anaconda.org/bioconda/muscle
-  - muscle
   # Pillow
   # https://pillow.readthedocs.io/en/stable/installation.html
   - pillow
