@@ -25,9 +25,6 @@ import MDAnalysis
 
 from watermark import watermark
 print(watermark(
-    current_date=True,
-    current_time=True,
-    iso8601=True,
     python=True,
     conda=True,
     machine=True,
