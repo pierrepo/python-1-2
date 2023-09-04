@@ -19,7 +19,7 @@ mamba env update -f binder/environment.yml
 ## Load env
 
 ```bash
-conda activate ppoulain-python-2022
+conda activate ppoulain-python
 ```
 
 ## Run Jupyter Lab
