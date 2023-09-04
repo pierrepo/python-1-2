@@ -28,7 +28,9 @@ conda activate ppoulain-python
 conda install -c bioconda muscle=3.8
 ```
 
-## Run Jupyter Lab
+## Verify modules and tools
+
+### Run Jupyter Lab
 
 ```bash
 jupyter lab
@@ -38,3 +40,8 @@ open `binder/test_modules.ipynb`
 
 `Kernel` -> `Restart Kernel And Run All Cells`
 
+### Run script
+
+```bash
+bash binder/test_modules.sh
+```
