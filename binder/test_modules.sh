@@ -1,6 +1,5 @@
 #! /usr/bin/env bash
 
-
 python <<EOF
 import numpy
 import pandas
