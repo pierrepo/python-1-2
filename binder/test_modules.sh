@@ -43,4 +43,5 @@ echo "pydoctyle $(pydocstyle --version)"
 black --version | head -n 1
 ruff --version
 
+echo -e "\nJupyter Lab extensions:"
 jupyter-labextension list
