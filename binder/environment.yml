@@ -75,3 +75,11 @@ dependencies:
     # jupyterlab-fasta
     # https://github.com/jupyterlab/jupyter-renderers/tree/main/packages/fasta-extension
     - jupyterlab-fasta
+    # worldcloud
+    # https://github.com/amueller/word_cloud
+    - wordcloud
+    # Beautiful Soup
+    # https://www.crummy.com/software/BeautifulSoup/
+    - beautifulsoup4
+
+

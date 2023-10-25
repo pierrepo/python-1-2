@@ -22,6 +22,8 @@ import ete3
 import Bio
 import biopandas
 import MDAnalysis
+import bs4
+import wordcloud
 
 from watermark import watermark
 print(watermark(
