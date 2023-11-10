@@ -22,6 +22,7 @@ import ete3
 import Bio
 import biopandas
 import MDAnalysis
+import nglview
 import bs4
 import wordcloud
 
@@ -31,6 +32,7 @@ print(watermark(
     conda=True,
     machine=True,
     watermark=True,
+    packages="jupyterlab,ipywidgets",
     iversions=True, globals_=globals()
 ))
 EOF

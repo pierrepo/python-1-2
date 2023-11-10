@@ -16,7 +16,9 @@ dependencies:
   - pandas
   - biopython
   - jupyterlab>=3
-  - ipywidgets
+  # Downgrad ipywidgets to avoid display issue with nglview
+  # https://stackoverflow.com/questions/74279848/nglview-installed-but-will-not-import-inside-juypter-notebook-via-anaconda-navig
+  - ipywidgets<8
   # Linters and formaters
   - pycodestyle
   - pydocstyle
@@ -62,6 +64,10 @@ dependencies:
   - biopandas
   # MDanalys
   - mdanalysis
+  # nglview
+  # https://github.com/nglviewer/nglview
+  # force installation from conda-forge since bioconda has an old version
+  - conda-forge::nglview
   - pip:
     # watermark
     - watermark
