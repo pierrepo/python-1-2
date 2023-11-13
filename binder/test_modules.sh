@@ -25,6 +25,10 @@ import MDAnalysis
 import nglview
 import bs4
 import wordcloud
+import nltk
+import streamlit
+import folium
+import streamlit_folium
 
 from watermark import watermark
 print(watermark(

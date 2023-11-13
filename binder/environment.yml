@@ -73,6 +73,12 @@ dependencies:
     - watermark
     # streamlit
     - streamlit
+    # Folium
+    # https://github.com/python-visualization/folium
+    - folium
+    # streamlit-folium
+    # https://github.com/randyzwitch/streamlit-folium
+    - streamlit-folium
     # Flask
     - Flask
     # nbqa : notebook quality control
@@ -87,5 +93,8 @@ dependencies:
     # Beautiful Soup
     # https://www.crummy.com/software/BeautifulSoup/
     - beautifulsoup4
+    # NLTK
+    # https://www.nltk.org/index.html
+    - nltk
 
 
