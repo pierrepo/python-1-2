@@ -96,5 +96,8 @@ dependencies:
     # NLTK
     # https://www.nltk.org/index.html
     - nltk
+    # py3Dmol
+    # https://3dmol.csb.pitt.edu/index.html
+    - py3Dmol
 
 
