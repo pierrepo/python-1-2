@@ -14,11 +14,13 @@ dependencies:
   - scipy
   - matplotlib
   - pandas
+  # Read / write xlsx Excel files
+  - openpyxl
+  # Read / write netCDF files
+  - xarray
   - biopython
   - jupyterlab>=3
-  # Downgrad ipywidgets to avoid display issue with nglview
-  # https://stackoverflow.com/questions/74279848/nglview-installed-but-will-not-import-inside-juypter-notebook-via-anaconda-navig
-  - ipywidgets<8
+  - ipywidgets
   # Linters and formaters
   - pycodestyle
   - pydocstyle
@@ -31,7 +33,7 @@ dependencies:
   - psutil
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
-  - jupyter-archive=3.3.4
+  - jupyter-archive
   # for projects
   - pytest
   # Bokeh

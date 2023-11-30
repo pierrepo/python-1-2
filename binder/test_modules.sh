@@ -3,6 +3,8 @@
 python <<EOF
 import numpy
 import pandas
+import openpyxl
+import xarray
 import scipy
 
 import matplotlib
