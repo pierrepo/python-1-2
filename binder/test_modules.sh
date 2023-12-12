@@ -34,14 +34,16 @@ import folium
 import streamlit_folium
 
 from watermark import watermark
+# Python implementation and version, and machine architecture
+print(watermark())
+# Packages versions
 print(watermark(
-    python=True,
-    conda=True,
-    machine=True,
     watermark=True,
     packages="jupyterlab,ipywidgets",
     iversions=True, globals_=globals()
 ))
+# Conda env name
+print(watermark(conda=True))
 EOF
 
 muscle -version
