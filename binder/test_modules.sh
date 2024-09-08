@@ -6,6 +6,8 @@ import pandas
 import openpyxl
 import xarray
 import scipy
+import statsmodels
+import polars
 
 import matplotlib
 import seaborn
@@ -20,7 +22,6 @@ import skimage
 
 import rdkit
 import flask
-import ete3
 import Bio
 import biopandas
 import MDAnalysis
@@ -30,8 +31,7 @@ import bs4
 import wordcloud
 import nltk
 import streamlit
-import folium
-import streamlit_folium
+import networkx
 
 from watermark import watermark
 # Python implementation and version, and machine architecture
@@ -46,7 +46,6 @@ print(watermark(
 print(watermark(conda=True))
 EOF
 
-muscle -version
 pytest --version
 streamlit --version
 

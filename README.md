@@ -13,7 +13,7 @@ Try the environment in your browser with Binder:
 The environment should already exist in the computer rooms at the university.
 
 ```bash
-mamba env update -f binder/environment.yml
+conda env update -f binder/environment.yml
 ```
 
 ## Load env
@@ -22,11 +22,6 @@ mamba env update -f binder/environment.yml
 conda activate ppoulain-python
 ```
 
-## Manually install Muscle
-
-```bash
-conda install -c bioconda muscle=3.8
-```
 
 ## Verify modules and tools
 

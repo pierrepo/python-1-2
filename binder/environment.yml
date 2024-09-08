@@ -3,10 +3,9 @@ name: ppoulain-python
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
 channels:
-  - defaults
-  - etetoolkit
-  - bioconda
   - conda-forge
+  - bioconda
+  - nodefaults
 dependencies:
   - python=3.11
   - pip
@@ -14,12 +13,15 @@ dependencies:
   - scipy
   - matplotlib
   - pandas
+  - statsmodels
   # Read / write xlsx Excel files
   - openpyxl
+  # Read / write ods LibreOffice files
+  - odfpy
   # Read / write netCDF files
   - xarray
   - biopython
-  - jupyterlab>=3
+  - jupyterlab>=4
   - ipywidgets
   # Linters and formaters
   - pycodestyle
@@ -41,7 +43,7 @@ dependencies:
   - bokeh
   - jupyter_bokeh
   # plotly
-  # https://plotly.com/python/getting-started/
+  # https://plotly.com/python/getting-started/#jupyterlab-support
   - plotly
   # Pillow
   # https://pillow.readthedocs.io/en/stable/installation.html
@@ -58,9 +60,6 @@ dependencies:
   # Requests
   # https://anaconda.org/conda-forge/requests
   - requests
-  # Ete
-  # http://etetoolkit.org/download/
-  - ete3
   # BioPandas
   # http://rasbt.github.io/biopandas/installation/
   - biopandas
@@ -69,18 +68,17 @@ dependencies:
   # nglview
   # https://github.com/nglviewer/nglview
   # force installation from conda-forge since bioconda has an old version
-  - conda-forge::nglview
+  #- conda-forge::nglview
+  - nglview
+  # Polars
+  - polars
+  # Networks
+  - networkx
   - pip:
     # watermark
     - watermark
     # streamlit
     - streamlit
-    # Folium
-    # https://github.com/python-visualization/folium
-    - folium
-    # streamlit-folium
-    # https://github.com/randyzwitch/streamlit-folium
-    - streamlit-folium
     # Flask
     - Flask
     # nbqa : notebook quality control
