@@ -57,3 +57,5 @@ ruff --version
 
 echo -e "\nJupyter Lab extensions:"
 jupyter-labextension list
+
+spyder --help

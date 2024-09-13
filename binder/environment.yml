@@ -74,6 +74,9 @@ dependencies:
   - polars
   # Networks
   - networkx
+  # Spyder
+  # https://www.spyder-ide.org/
+  - spyder
   - pip:
     # watermark
     - watermark
